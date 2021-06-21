@@ -19,7 +19,7 @@ print("{}가 {} {}".format(x,y,z))
 술어:피었습니다.
 진달래가 활짝 피었습니다.
 
-연습 #1
+과제 #1
 
 ~~~python
 x="monkey"
@@ -29,7 +29,7 @@ print(type(x))
 |결과|
 <class 'str'>
 
-연습 #2
+과제 #2
 
 ~~~python
 y=2.78
@@ -40,7 +40,7 @@ print(b)
 |결과|
 2
 
-연습 #3
+과제 #3
 
 ~~~python
 a=float(input('숫자1: '))
@@ -54,7 +54,7 @@ print(c)
 숫자1: 24.5
 숫자2: 12.8
 
-연습#4
+과제 #4
 
 ~~~python
 a=input('숫자: ')
@@ -69,7 +69,7 @@ print(c)
 숫자: 9.345
 41.64
 
-연습 #5
+과제 #5
 
 ~~~python
 x=30
@@ -80,7 +80,7 @@ print('x={},y={},x+y={}'.format(x,y,x+y))
 |결과|
 x=30,y=307,x+y=337
 
-연습 #6-1
+과제 #6-1
 
 ~~~python
 f=open('inputData.txt','r',encoding='UTF-8')
@@ -93,7 +93,7 @@ print(c)
 |결과|
 333.5956
 
-연습 #6-2
+과제 #6-2
 
 ~~~python
 f=open('inputData.txt','r',encoding='UTF-8')
@@ -110,5 +110,4 @@ print(c)
 
 77.25
 333.5956
-
 
