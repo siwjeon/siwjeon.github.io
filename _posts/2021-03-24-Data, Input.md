@@ -70,6 +70,7 @@ print(c)
 41.64
 
 연습 #5
+
 ~~~python
 x=30
 y=307
@@ -78,3 +79,36 @@ print('x={},y={},x+y={}'.format(x,y,x+y))
 
 |결과|
 x=30,y=307,x+y=337
+
+연습 #6-1
+
+~~~python
+f=open('inputData.txt','r',encoding='UTF-8')
+a=f.readline()
+b=f.readline()
+c=float(a)+float(b)
+print(c)
+~~~
+
+|결과|
+333.5956
+
+연습 #6-2
+
+~~~python
+f=open('inputData.txt','r',encoding='UTF-8')
+a=f.readline()
+print(a)
+b=f.readline()
+print(b)
+c=float(a)+float(b)
+print(c)
+~~~
+
+|결과|
+256.3456
+
+77.25
+333.5956
+
+
